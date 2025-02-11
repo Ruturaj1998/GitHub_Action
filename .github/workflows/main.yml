@@ -26,6 +26,10 @@ jobs:
       run: |
         echo "${{ secrets.MY_SEC }}"
 
+    - name: How to use secrets
+      run: |
+        echo "${{ vars.MY_VAR }}"   
+
     # - name: Run tests
     #   run: |
     #     cd src
